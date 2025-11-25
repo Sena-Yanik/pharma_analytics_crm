@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1362</width>
+    <height>757</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Doktor Bilgileri</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <property name="leftMargin">
+       <number>30</number>
+      </property>
+      <property name="topMargin">
+       <number>30</number>
+      </property>
+      <property name="rightMargin">
+       <number>30</number>
+      </property>
+      <property name="bottomMargin">
+       <number>30</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="Tahmin">
+        <property name="text">
+         <string>Tahmin</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Analiz">
+        <property name="text">
+         <string>Analiz</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="listWidget_doktorlar"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_doktor_detaylari">
+      <property name="title">
+       <string>Doktor Detayları</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_isim">
+         <item>
+          <widget class="QLabel" name="label_isim">
+           <property name="text">
+            <string>İsim:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_isim"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_brans_bolge">
+         <item>
+          <widget class="QLabel" name="label_brans">
+           <property name="text">
+            <string>Branş:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_brans"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_bolge">
+           <property name="text">
+            <string>Bölge:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_bolge"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_hastane">
+         <item>
+          <widget class="QLabel" name="label_hastane">
+           <property name="text">
+            <string>Hastane:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_hastane"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_ilac_1_2">
+         <item>
+          <widget class="QLabel" name="label_ilac_1">
+           <property name="text">
+            <string>İlaç 1:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_1"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_ilac_2">
+           <property name="text">
+            <string>İlaç 2:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_2"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_ilac_3_4">
+         <item>
+          <widget class="QLabel" name="label_ilac_3">
+           <property name="text">
+            <string>İlaç 3:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_3"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_ilac_4">
+           <property name="text">
+            <string>İlaç 4:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_4"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_ilac_5_6">
+         <item>
+          <widget class="QLabel" name="label_ilac_5">
+           <property name="text">
+            <string>İlaç 5:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_5"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_ilac_6">
+           <property name="text">
+            <string>İlaç 6:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_ilac_6"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_toplam_ilac">
+         <item>
+          <widget class="QLabel" name="label_toplam_ilac">
+           <property name="text">
+            <string>Toplam İlaç:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_toplam_ilac"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_ilac_detaylari">
+      <property name="title">
+       <string>İlaç Detayları</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="tableWidget_ilac_detaylari">
+         <column>
+          <property name="text">
+           <string>Tarih</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>İlaç Adı</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Adet</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1362</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

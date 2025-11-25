@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="resim">
+    <file>resim/user png.jpg</file>
+    <file>resim/beyaz.jpeg</file>
+    <file>resim/user.jpeg</file>
+    <file>resim/arka fon.jpg</file>
+  </qresource>
+</RCC>
